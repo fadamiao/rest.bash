@@ -23,6 +23,7 @@ function rest
           ;;
         *)
             echo "Error: Invalid Method"
+            return 1
           ;;
     esac
 }
